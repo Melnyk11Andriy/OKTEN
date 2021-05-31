@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {UsersComponent} from "./users/users.component";
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-practice-first';
+
+
+  constructor() {
+  }
+
 }
+
