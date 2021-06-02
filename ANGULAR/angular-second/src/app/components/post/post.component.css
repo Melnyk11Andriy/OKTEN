@@ -1,0 +1,7 @@
+post-box {
+  padding: .5rem;
+}
+
+.user-box:hover {
+  border-right: 4px solid dodgerblue;
+}

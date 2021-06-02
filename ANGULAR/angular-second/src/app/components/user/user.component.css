@@ -1,0 +1,7 @@
+.user-box {
+  padding: .5rem;
+}
+
+.user-box:hover {
+  border-left: 4px solid dodgerblue;
+}
