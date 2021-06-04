@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {UserService} from "../../services/user.service";
 import {IUser} from "../../models/user.model";
+import {UserService} from "../../servises/user.service";
 
 @Component({
   selector: 'app-users',
@@ -12,9 +12,7 @@ users: IUser[] = [];
   constructor(private userService: UserService) { }
 
   ngOnInit(): void {
-    this.userService.getUsers().subscribe(value => {
-      this.users = value;
-    });
+    this.userService.getUsers().subscribe(value => this.users = value);
   }
 
 }

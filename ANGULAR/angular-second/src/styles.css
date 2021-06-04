@@ -1,11 +1,7 @@
 * {
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
 }
 
 body {
-  font-family: sans-serif;
-  color: steelblue;
-  background-color: steelblue;
-}
+  background-color: #a2662a;
+}/* You can add global styles to this file, and also import other style files */
