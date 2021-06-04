@@ -1,0 +1,9 @@
+.post-box {
+  width: 50%;
+  padding: .5rem;
+  margin-left: auto ;
+  outline: 1px groove #e7f09a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
