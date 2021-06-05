@@ -1,7 +1,9 @@
 <div class="user-box">
-  {{user.id}}
-  {{user.name}}
-  {{user.username}}
-  {{user.email}}
-
+  <h3>{{user.id}}
+    {{user.name}}
+    {{user.username}}
+    {{user.email}}
+  </h3>
+<h4>posts -</h4>
+  <app-posts [userId]="user.id"></app-posts>
 </div>
