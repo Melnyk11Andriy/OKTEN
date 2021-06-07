@@ -1,0 +1,15 @@
+.app-container {
+  max-width: 1100px;
+  height: 100%;
+  padding: 15px;
+  margin: 0 auto;
+  background-color: silver;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  background-color: lightgrey;
+}
