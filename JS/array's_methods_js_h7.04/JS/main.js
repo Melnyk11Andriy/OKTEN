@@ -120,7 +120,7 @@ const users = [
 //     return 0;
 // });
 // console.log(descLetters);
-// //c)*****this particular case is a solution by Юрій Бєлих*************************
+//c)*****this particular case is a solution by Юрій Бєлих*************************
 // let usersWithId = users.map((obj, index) => {
 //     return {...obj, id: index + 1};
 // });
@@ -139,6 +139,3 @@ const users = [
 //     return acc;
 // }, []);
 // console.log(onlyMarried);
-
-
-

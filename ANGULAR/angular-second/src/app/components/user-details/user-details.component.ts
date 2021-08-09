@@ -12,7 +12,7 @@ export class UserDetailsComponent implements OnInit {
   userInside: IUser;
 
   constructor(private router: Router, private activatedRoute: ActivatedRoute) {
-    this.activatedRoute.params.subscribe(value => {
+    this.activatedRoute.params.subscribe( () => {
       this.userInside = this.router.getCurrentNavigation()?.extras.state as IUser;
     });
 

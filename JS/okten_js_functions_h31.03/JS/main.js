@@ -1,37 +1,37 @@
 // 1) створити функцію яка приймає масив та виводить його
-// function myArray(arr) {
-//     console.log(arr);
-// }
+function myArray(arr) {
+    console.log(arr);
+}
 // myArray([7, 14, 84]);
 
 // 2) створити функцію яка заповнює масив рандомними числами та виводить його.
-//Для виведення використати попередню функцію.
-// function myArray(y) {
-//     y();
-// }
-//
-// function randomNum() {
-// let arr = [];
-// arr.push(Math.floor(Math.random() * 100));
-// arr.push(Math.floor(Math.random() * 100));
-// arr.push(Math.floor(Math.random() * 100));
-//     console.log(arr);
-// }
+// Для виведення використати попередню функцію.
+function myArray(y) {
+    y();
+}
+
+function randomNum() {
+let arr = [];
+arr.push(Math.floor(Math.random() * 100));
+arr.push(Math.floor(Math.random() * 100));
+arr.push(Math.floor(Math.random() * 100));
+    console.log(arr);
+}
 // myArray(randomNum);
 
 // 3) створити функцію яка приймає три числа та виводить найменьше. (Без Math.min!)
-// function minimise (x, y, z) {
-//     if (x < y && x < z) {
-//         console.log(x);
-//     }
-//      else if (y < x && y < z) {
-//         console.log(y);
-//     }
-//      else if (z < x && z < y) {
-//          console.log(z);
-//     }
-//  }
-// minimise (6, 9, 7);
+function minimise (x, y, z) {
+    if (x < y && x < z) {
+        console.log(x);
+    }
+     else if (y < x && y < z) {
+        console.log(y);
+    }
+     else if (z < x && z < y) {
+         console.log(z);
+    }
+ }
+minimise (6, 9, 7);
 
 // 4) створити функцію яка приймає три числа та виводить найбільше.
 // function maximise (a, b, c) {
