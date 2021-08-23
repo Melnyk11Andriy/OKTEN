@@ -17,7 +17,7 @@
 
     <div>{{ title }}</div>
 
-    <Counter :counter="counterVal" @childIncBtn="incHandler" @childDecBtn="decHandler"/>
+    <Counter :counter="counterVal" @childIncBtn="incHandler" @childDecBtn="decHandler" />
   </div>
 </template>
 
