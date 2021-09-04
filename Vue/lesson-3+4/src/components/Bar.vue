@@ -1,11 +1,11 @@
 <template>
-<div>Bar component</div>
+    <div>Bar component</div>
 </template>
 
 <script>
-export default {
-  name: "Bar"
-}
+    export default {
+        name: "Bar"
+    }
 </script>
 
 <style scoped>
