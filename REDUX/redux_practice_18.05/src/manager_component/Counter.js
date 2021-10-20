@@ -25,8 +25,18 @@ export default function Counter() {
                     <button className={'hundred-btn'} onClick={() => decrement(100)}>100↘</button>
                 </div>
                 <div>
-                    <button className={'user-btn'} onClick={() => increment(Number(prompt('type your number to increase the counter')))}>click↗</button>
-                    <button className={'user-btn'} onClick={() => decrement(Number(prompt('type your number to decrease the counter')))}>click↘</button>
+                    <button 
+                    className={'user-btn'} 
+                    onClick={() => increment(Number(prompt('type your number to increase the counter')))}
+                    >
+                        click↗
+                        </button>
+                    <button 
+                    className={'user-btn'} 
+                    onClick={() => decrement(Number(prompt('type your number to decrease the counter')))}
+                    >
+                        click↘
+                        </button>
                 </div>
             </div>
         </div>

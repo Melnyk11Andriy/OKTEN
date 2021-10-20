@@ -161,29 +161,29 @@
 // Створити масив з 10 елементів числового, стірчкового і булевого типу. За допомогою if та typeof вивести тільки булеві елементи
 // - Створити масив з 10 елементів числового, стірчкового і булевого типу. За допомогою if та typeof вивести тільки числові елементи
 // - Створити масив з 10 елементів числового, стрічкового і булевого типу. За допомогою if та typeof вивести тільки рядкові елементи
-// let _anyType = [
-//     false,
-//     true,
-//     11,
-//     'tree',
-//     -111,
-//     'endless',
-//     'force',
-//     19,
-//     false,
-//     true,
-//     'boolean'
-// ];
+let _anyType = [
+    false,
+    true,
+    11,
+    'tree',
+    -111,
+    'endless',
+    'force',
+    19,
+    false,
+    true,
+    'boolean'
+];
 // for (let i = 0; i < _anyType.length; i++) {
 //     if (typeof _anyType[i] === 'boolean') {
 //         console.log(_anyType[i]);
 //     }
 // }
-// for (let i = _anyType.length-1; i >= 0; i--) {
-//     if (typeof _anyType[i] === 'number') {
-//         console.log(_anyType[i]);
-//     }
-// }
+for (let i = _anyType.length-1; i >= 0; i--) {
+    if (typeof _anyType[i] === 'number') {
+        console.log(_anyType[i]);
+    }
+}
 // for (element of _anyType) {
 //     if (typeof element === 'string') {
 //         console.log(element);

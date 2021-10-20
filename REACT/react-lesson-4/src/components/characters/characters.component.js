@@ -12,16 +12,16 @@ export default function Characters() {
 
 
 
-  return (
-    <div>
-        <h1>Characters</h1>
+    return (
+        <div>
+            <h1>Characters</h1>
 
-        {
-            characters.map(value => <Character key={value.id}
-                                               person={value}
+            {
+                characters.map(value => <Character key={value.id}
+                                                   person={value}
 
-            />)
-        }
-    </div>
-  );
+                />)
+            }
+        </div>
+    );
 }
